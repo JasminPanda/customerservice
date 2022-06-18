@@ -1,0 +1,43 @@
+footer {
+    background: var(--Dark-moderate-cyan);
+    text-align: center;
+    width: 100%;
+    
+}
+
+.footer-image {
+    padding: 2rem 0;
+    color: var(--Dark-desaturated-cyan);
+}
+
+footer .footer-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-nav ul li {
+    list-style: none;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+    color: var(--Dark-desaturated-cyan);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+footer .footer-nav ul li:hover {
+    color: var(--White);
+}
+
+footer .icon-images .icons{
+    font-size: 1rem;
+    padding: 2rem 1rem;
+    color: var(--Dark-desaturated-cyan);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+footer .icon-images .icons:hover {
+    color: var(--White);
+}
+
